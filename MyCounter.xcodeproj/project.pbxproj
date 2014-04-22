@@ -19,6 +19,7 @@
 		9B82F0F91906BE88009E64F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B82F0E11906BE88009E64F2 /* UIKit.framework */; };
 		9B82F1011906BE88009E64F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B82F0FF1906BE88009E64F2 /* InfoPlist.strings */; };
 		9B82F1031906BE88009E64F2 /* MyCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82F1021906BE88009E64F2 /* MyCounterTests.m */; };
+		9B82F1111906C6E6009E64F2 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82F1101906C6E6009E64F2 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		9B82F0FE1906BE88009E64F2 /* MyCounterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyCounterTests-Info.plist"; sourceTree = "<group>"; };
 		9B82F1001906BE88009E64F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B82F1021906BE88009E64F2 /* MyCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCounterTests.m; sourceTree = "<group>"; };
+		9B82F10F1906C6E6009E64F2 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		9B82F1101906C6E6009E64F2 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 		9B82F0E31906BE88009E64F2 /* MyCounter */ = {
 			isa = PBXGroup;
 			children = (
+				9B82F10F1906C6E6009E64F2 /* MyViewController.h */,
+				9B82F1101906C6E6009E64F2 /* MyViewController.m */,
 				9B82F0EC1906BE88009E64F2 /* AppDelegate.h */,
 				9B82F0ED1906BE88009E64F2 /* AppDelegate.m */,
 				9B82F0EF1906BE88009E64F2 /* Images.xcassets */,
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B82F1111906C6E6009E64F2 /* MyViewController.m in Sources */,
 				9B82F0EE1906BE88009E64F2 /* AppDelegate.m in Sources */,
 				9B82F0EA1906BE88009E64F2 /* main.m in Sources */,
 			);
@@ -437,6 +443,7 @@
 				9B82F1081906BE88009E64F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B82F1091906BE88009E64F2 /* Build configuration list for PBXNativeTarget "MyCounterTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +452,7 @@
 				9B82F10B1906BE88009E64F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
