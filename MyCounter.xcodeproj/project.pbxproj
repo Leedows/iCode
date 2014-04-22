@@ -20,6 +20,7 @@
 		9B82F1011906BE88009E64F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B82F0FF1906BE88009E64F2 /* InfoPlist.strings */; };
 		9B82F1031906BE88009E64F2 /* MyCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82F1021906BE88009E64F2 /* MyCounterTests.m */; };
 		9B82F1111906C6E6009E64F2 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82F1101906C6E6009E64F2 /* MyViewController.m */; };
+		9B82F1141906C895009E64F2 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82F1131906C895009E64F2 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9B82F1021906BE88009E64F2 /* MyCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCounterTests.m; sourceTree = "<group>"; };
 		9B82F10F1906C6E6009E64F2 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		9B82F1101906C6E6009E64F2 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		9B82F1121906C895009E64F2 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		9B82F1131906C895009E64F2 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 		9B82F0E31906BE88009E64F2 /* MyCounter */ = {
 			isa = PBXGroup;
 			children = (
+				9B82F1121906C895009E64F2 /* Test.h */,
+				9B82F1131906C895009E64F2 /* Test.m */,
 				9B82F10F1906C6E6009E64F2 /* MyViewController.h */,
 				9B82F1101906C6E6009E64F2 /* MyViewController.m */,
 				9B82F0EC1906BE88009E64F2 /* AppDelegate.h */,
@@ -245,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B82F1111906C6E6009E64F2 /* MyViewController.m in Sources */,
+				9B82F1141906C895009E64F2 /* Test.m in Sources */,
 				9B82F0EE1906BE88009E64F2 /* AppDelegate.m in Sources */,
 				9B82F0EA1906BE88009E64F2 /* main.m in Sources */,
 			);
